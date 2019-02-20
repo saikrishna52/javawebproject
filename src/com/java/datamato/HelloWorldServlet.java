@@ -34,7 +34,7 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.print("<html><body><h1 align='center'>" + new Date().toString()
 				+ "</h1></body></html>");
-		out.print("hi bye hi bye hihi ");
+		out.print("BYE ");
 		
 	}
 
