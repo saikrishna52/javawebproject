@@ -1,5 +1,5 @@
 package com.java.datamato;
-
+//comments 1
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
@@ -34,7 +34,7 @@ public class HelloWorldServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.print("<html><body><h1 align='center'>" + new Date().toString()
 				+ "</h1></body></html>");
-		out.print("Display hhh  message");
+		out.print("Display  message");
 		
 	}
 
